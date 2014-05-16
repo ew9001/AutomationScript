@@ -81,7 +81,7 @@ String urlname = s.getCell(0, row).getContents();
 String dealer = s.getCell(2, row).getContents();
 driver.get(urlname);
 count+=1;
-driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
+driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
 java.util.List<WebElement> list=driver.findElements(By.xpath("//a"));
@@ -107,8 +107,8 @@ try {
             }
 
     File scrFile1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-FileUtils.copyFile(scrFile1, new File("ExternalPages" + "/" + row + "_found" + dealer +".png"));
-driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+FileUtils.copyFile(scrFile1, new File("ExternalPages" + "/" + row + "found" + dealer +".png"));
+//((Rotatable) driver).rotate(ScreenOrientation.PORTRAIT);
 
   } catch (Exception ex){
       
