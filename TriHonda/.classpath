@@ -22,5 +22,6 @@
 	<classpathentry kind="lib" path="library/selenium-java-2.41.0.jar"/>
 	<classpathentry kind="lib" path="library/selenium-server-2.37.0.jar"/>
 	<classpathentry kind="lib" path="library/selenium-server-standalone-2.37.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
