@@ -7,11 +7,9 @@ import java.awt.Robot;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
-import java.net.URL;
 
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.remote.Augmenter;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.text.SimpleDateFormat;
@@ -41,17 +39,15 @@ public class ExternalDealers{
 Sheet s;
 WebDriver driver;
 int count=0;
-public static final String USERNAME = "earlwillis1";
-public static final String AUTOMATE_KEY = "XsPyFTirN4mH8aCLMB9A";
-public static final String URL = "http://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
 String local=(new java.io.File("").getAbsolutePath());
 String data="" + local + "/" + "externaldealers.xls";
 String name ="";
 @Before
 public void setUp()
 {
-
-
+driver = new FirefoxDriver();
+//((Rotatable) driver).rotate(ScreenOrientation.LANDSCAPE);
+driver.manage().window().maximize();
 }
 
 
@@ -64,18 +60,8 @@ public void setUp()
 
 
 public void searchGoogle() throws Exception {
+//FileInputStream fi = new FileInputStream("/home/ewillis/workspace/TriHondaScripts/TriHonda/lib/externaldealers.xls");
 
-	DesiredCapabilities caps = DesiredCapabilities.firefox();
-	  caps.setCapability("browser", "FireFox");
-	  caps.setCapability("browser_version", "22.0");
-	  caps.setCapability("os", "Windows");
-	  caps.setCapability("os_version", "7");
-	  caps.setCapability("browserstack.debug", "true");
-	  
-	  WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
-	  driver.manage().window().maximize();
-	    driver.get("http://google.com");
-	    
    InputStream  fi= new FileInputStream(data);
   Workbook w = Workbook.getWorkbook(fi);
   s = w.getSheet(0);
@@ -144,9 +130,9 @@ return false;
 
 @After
 public void tearDown() throws Exception {
-	
-    driver.quit();
-    
-  }
+ 
+   driver.quit();
+  
+   }
  }
 

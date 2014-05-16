@@ -39,7 +39,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class ExternalDealers{
 Sheet s;
-WebDriver driver;
 int count=0;
 public static final String USERNAME = "earlwillis1";
 public static final String AUTOMATE_KEY = "XsPyFTirN4mH8aCLMB9A";
@@ -144,7 +143,7 @@ return false;
 
 @After
 public void tearDown() throws Exception {
-	
+	WebDriver driver = null;
     driver.quit();
     
   }

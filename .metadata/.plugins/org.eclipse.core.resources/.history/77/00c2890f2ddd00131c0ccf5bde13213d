@@ -39,7 +39,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class ExternalDealers{
 Sheet s;
-WebDriver driver;
 int count=0;
 public static final String USERNAME = "earlwillis1";
 public static final String AUTOMATE_KEY = "XsPyFTirN4mH8aCLMB9A";
@@ -50,8 +49,9 @@ String name ="";
 @Before
 public void setUp()
 {
-
-
+driver = new FirefoxDriver();
+//((Rotatable) driver).rotate(ScreenOrientation.LANDSCAPE);
+driver.manage().window().maximize();
 }
 
 
@@ -73,7 +73,6 @@ public void searchGoogle() throws Exception {
 	  caps.setCapability("browserstack.debug", "true");
 	  
 	  WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
-	  driver.manage().window().maximize();
 	    driver.get("http://google.com");
 	    
    InputStream  fi= new FileInputStream(data);
@@ -144,9 +143,9 @@ return false;
 
 @After
 public void tearDown() throws Exception {
-	
-    driver.quit();
-    
-  }
+ 
+   driver.quit();
+  
+   }
  }
 
