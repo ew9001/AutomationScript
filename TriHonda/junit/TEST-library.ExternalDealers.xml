@@ -1,0 +1,2322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="nycpusagolube.local" name="library.ExternalDealers" tests="1" time="165.521" timestamp="2014-05-16T18:35:58">
+  <properties>
+    <property name="java.vendor" value="Apple Inc." />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+    <property name="env.TMPDIR" value="/var/folders/gd/k5lsk02s4gdbr4f350qydgwnxp8pg6/T/" />
+    <property name="env.Apple_Ubiquity_Message" value="/tmp/launch-7J9SwP/Apple_Ubiquity_Message" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730" />
+    <property name="java.runtime.version" value="1.6.0_51-b11-457-11M4509" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-nTpeAT/Render" />
+    <property name="user.name" value="agolubev1" />
+    <property name="env.USER" value="agolubev1" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x7B6459E6:0:0" />
+    <property name="awt.nativeDoubleBuffering" value="true" />
+    <property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="TriHonda" />
+    <property name="java.version" value="1.6.0_51" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="env.APP_ICON_62675" value="../Resources/Eclipse.icns" />
+    <property name="sun.jnu.encoding" value="MacRoman" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../Screen shots/oralb/eclipse" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_62675" value="1" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="agolubev1" />
+    <property name="ant.file" value="/Users/agolubev1/Desktop/AutomationScript/TriHonda/build.xml" />
+    <property name="os.version" value="10.8.5" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="20.51-b01-457" />
+    <property name="ant.library.dir" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="apple.awt.CToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="eclipse.pdebuild.scripts" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/scripts//" />
+    <property name="ant.file.type.TriHonda" value="file" />
+    <property name="user.home" value="/Users/agolubev1" />
+    <property name="target" value="1.6" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="java.vendor.url" value="http://www.apple.com/" />
+    <property name="java.vm.vendor" value="Apple Inc." />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.ExternalDealers filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/agolubev1/Desktop/AutomationScript/TriHonda/junit/TEST-library.ExternalDealers.xml crashfile=/Users/agolubev1/Desktop/AutomationScript/TriHonda/junitvmwatcher4077443765392947442.properties propsfile=/Users/agolubev1/Desktop/AutomationScript/TriHonda/junit1316724258542704656.properties" />
+    <property name="java.class.path" value="/Users/agolubev1/Desktop/AutomationScript/TriHonda/bin:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-fileupload-1.3.1.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-io-2.4-javadoc.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-io-2.4-sources.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-io-2.4-test-sources.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-io-2.4-tests.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-io-2.4.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-logging-1.1.3-javadoc.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-logging-1.1.3-sources.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-logging-1.1.3-test-sources.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-logging-1.1.3-tests.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-logging-1.1.3.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-logging-adapters-1.1.3.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-logging-api-1.1.3.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/commons-logging-tests.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/junit-4.11.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/jxl-2.6.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/jxl.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/selenium-java-2.41.0.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/selenium-server-2.37.0.jar:/Users/agolubev1/Desktop/AutomationScript/TriHonda/library/selenium-server-standalone-2.37.0.jar:/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-launcher.jar:/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant.jar:/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-junit.jar:/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
+    <property name="env.com.apple.java.jvmMode" value="client" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HOME" value="/Users/agolubev1" />
+    <property name="env.ANT_HOME" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730" />
+    <property name="java.io.tmpdir" value="/var/folders/gd/k5lsk02s4gdbr4f350qydgwnxp8pg6/T/" />
+    <property name="env.COM_GOOGLE_CHROME_FRAMEWORK_SERVICE_PROCESS/USERS/AGOLUBEV1/LIBRARY/APPLICATION_SUPPORT/GOOGLE/CHROME_SOCKET" value="/tmp/launch-QwAOdC/ServiceProcessSocket" />
+    <property name="eclipse.pdebuild.home" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/.//" />
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-YDhuxO/Listeners" />
+    <property name="env.COMMAND_MODE" value="unix2003" />
+    <property name="mrj.build" value="11M4509" />
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+    <property name="os.arch" value="x86_64" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_63942" value="1" />
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+    <property name="user.dir" value="/Users/agolubev1/Desktop/AutomationScript/TriHonda" />
+    <property name="env.com.apple.java.jvmTask" value="CommandLine_Manual.java" />
+    <property name="mrj.version" value="1070.1.6.0_51-457" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/agolubev1/Desktop/AutomationScript/TriHonda" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant.jar" />
+    <property name="source" value="1.6" />
+    <property name="file.encoding" value="MacRoman" />
+    <property name="ant.file.TriHonda" value="/Users/agolubev1/Desktop/AutomationScript/TriHonda/build.xml" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="ant.project.invoked-targets" value="ExternalDealers,build" />
+    <property name="env.JAVA_MAIN_CLASS_63942" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+  </properties>
+  <testcase classname="library.ExternalDealers" name="searchGoogle" time="165.415" />
+  <system-out><![CDATA[
+Select Language?
+
+
+Home
+Specials
+
+
+
+New Vehicles
+
+
+
+
+
+
+Used Vehicles
+
+
+
+
+
+Finance
+
+
+
+
+Service & Parts
+
+
+
+About Us
+
+
+
+
+
+
+
+1
+2
+3
+4
+
+
+
+
+
+
+
+
+
+
+Accord Coupe
+Accord Plug-in Hybrid
+Accord Sedan
+CR-Z
+Civic Coupe
+Civic Hybrid
+
+
+
+
+
+
+
+
+
+
+
+Search Inventory
+Sales
+Service
+Parts
+
+Get directions
+
+Internet Sales Department
+Bronx Honda
+new
+used
+online inventory
+Honda CR- V
+Accord Sedan
+Pilot
+Accord Coupe
+CR-V
+Civic Coupe
+Pilot
+Odyssey
+Ridgeline
+Fit
+map
+driving directions
+pre-qualify for financing
+contact
+Honda Civic
+service appointments
+order parts
+new vehicle offers and lease offers
+
+
+Contact Us
+
+Site Map
+
+25 E Main St.
+New Rochelle, NY 10801
+
+MAKE THE SWITCH AND
+DISCOVER THE DIFFERENCE
+Translate
+Home
+New Inventory
+
+
+
+
+
+
+
+
+
+Pre-Owned
+
+
+
+
+
+
+
+
+Financing
+
+
+
+
+
+
+
+
+Service & Parts
+
+
+
+
+
+
+
+
+
+
+Specials
+
+
+
+
+
+
+
+
+Videos
+
+
+
+
+
+
+Interact With Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Quick New Honda Search
+
+
+
+
+Quick Quote For Your Best Deal
+Schedule Service Online 24/7
+Watch Live Customer Testimonials
+Value Your Trade with Edmunds
+
+
+
+
+
+
+ 
+
+2013 Honda Accord EX-L V-6 w/Navigation Coupe
+View Details
+
+2013 Honda Accord EX-L w/Navigation Coupe
+View Details
+
+2012 Honda CR-Z EX w/Nav Coupe
+View Details
+
+2012 Honda CR-Z Coupe
+View Details
+
+2013 Honda Civic EX-L w/Navi Sedan
+View Details
+
+2013 Honda Civic EX-L w/Navi Sedan
+View Details
+
+2013 Honda Civic EX-L w/Navi Sedan
+View Details
+
+2013 Honda Fit Base Hatchback
+View Details
+VIEW ALL
+
+2011 Honda Odyssey Touring Van Passenger
+View Details
+
+2011 Honda Accord LX-P Sedan
+View Details
+
+2011 Honda Accord SE Sedan
+View Details
+
+2011 Honda Pilot EX-L SUV
+View Details
+
+2011 Honda Odyssey EX-L Van Passenger
+View Details
+
+2011 Honda Odyssey EX-L Van Passenger
+View Details
+
+2012 Honda CR-V EX-L SUV
+View Details
+
+2011 Honda Accord EX-L Coupe
+View Details
+VIEW ALL
+Coupe
+Hatchback
+SUV
+Sedan
+Truck
+Van
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014 Honda Accord Sedan
+
+2014 Honda Accord Hybrid Sedan
+
+2014 Honda Accord Plug-In Hybrid Sedan
+
+2014 Honda Civic Sedan
+
+2014 Honda Civic Hybrid Sedan
+VIEW ALL
+
+
+
+
+
+
+new Honda vehicles
+Civic
+Accord
+Fit
+CR-V
+Pilot
+used cars in New Rochelle
+car loan in New Rochelle
+auto service and Honda Express Service repair team
+manufacturer certified Honda OEM parts
+about us
+http://www.fueleconomy.gov/feg/label/learn-more-electric-label.shtml
+http://www.fueleconomy.gov/feg/label/learn-more-PHEV-label.shtml.
+New Vehicles
+Pre-Owned Vehicles
+Build & Price
+Specials
+CarFinder
+Certified Pre-Owned Vehicles
+Service Center
+Service Appointment
+Service Specials
+Parts
+Parts Specials
+Body Shop
+Value Your Trade
+Apply for Credit
+Finance Center
+Dealership History
+Dealership Hours
+Directions & Hours
+Contact Us
+Meet the Staff
+Honda of NR in the Community
+See all department hours
+
+HondaofNR
+http://t.co/IEAtniTfrd
+http://t.co/jYxVjd3NPY
+
+HondaofNR
+http://t.co/EuVLKYyxHV
+Directions & Hours
+Contact Us
+About
+Privacy
+Sitemap
+Website by Dealer.com
+Directions & Hours
+Contact Us
+YouTube
+Facebook
+Twitter
+Dealer Rater Reviews
+Blog
+Reviews
+Hide
+
+
+[X]
+
+YONKERS HONDA
+DIRECTIONS
+Español
+HOME
+NEW INVENTORY
+
+
+
+
+
+PRE-OWNED
+
+
+
+
+
+
+
+SPECIALS
+
+
+
+SERVICE & PARTS
+
+
+
+
+BOOK SERVICE
+FINANCE
+
+
+
+CONTACT US
+
+
+
+
+
+
+NEW CAR SPECIALS
+PRE-OWNED SPECIALS
+SCHEDULE SERVICE
+GET PRE-APPROVED
+VALUE YOUR TRADE
+REVIEWS
+HONDA ACCORD
+HONDA CR-V
+HONDA CIVIC
+HONDA PILOT
+HONDA ODYSSEY
+HONDA FIT
+HONDA CROSSTOUR
+HONDA RIDGELINE
+HONDA INSIGHT
+HONDA CR-Z
+NEW HONDA SHOWROOM
+PRE-OWNED SHOWROOM
+PRE-OWNED SHOWROOM
+SERVICE & PARTS CENTER
+new Hondas
+used cars
+test drive
+auto financing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+More (+)
+New Honda Inventory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pre-Owned Honda Inventory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Certified Honda Inventory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Yonkers Honda
+Terms
+Privacy Policy
+Website by:
+AutoONE Media
+© 2014
+Close
+Directions
+Contact Us
+Customer Reviews
+
+Twitter
+
+
+
+
+
+
+Home
+New Vehicles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Used Vehicles
+
+
+
+
+
+
+
+
+
+
+
+
+
+Specials
+
+
+
+
+
+
+
+
+
+
+
+
+
+Financing
+
+
+
+
+
+
+
+
+
+Service & More
+
+
+
+
+
+
+
+
+
+
+
+
+
+About Us
+
+
+
+
+
+
+
+
+
+
+
+
+Contact Us
+New Vehicles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+see models
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+Auto Loan Pre-Approval in 60 Seconds!
+New Inventory
+Used Inventory
+
+Service Center
+Parts Center
+Collision Center
+Hours / Directions
+Payment Calculator
+Schedule Service Appointment
+View Our Monthly Video Specials
+Get CASH For Your Car!
+Customer Reviews
+Contact Us Today!
+
+New Vehicle Inventory
+Featured New Vehicles
+New Vehicles 30+mpg
+New Truck Center
+Free Trade-In Appraisal
+Pre-Approved Financing
+Military Discounts
+CASH For Your Car!
+Let Us Find Your Next Car
+Get An Extended Warranty
+Payment Calculator
+Trade -in Marketplace
+New Accord Offer
+New Civic Offer
+New CR-V Offer
+Student Discounts
+Used Vehicle Inventory
+Featured Pre-Owned
+Certified Pre-Owned
+30+MPG Vehicles
+Used Vehicles Under $15,000
+Used Trucks
+Free Trade-In Appraisal
+CASH For Your Car!
+Let Us Find Your Next Car
+Get An Extended Warranty
+Payment Calculator
+H.o.T Select
+Trade -in Marketplace
+Featured New Vehicles
+Featured Pre-Owned
+H.o.T. Select Specials
+Service Specials
+Parts Specials
+Monthly Video Specials
+New Honda Videos
+eNewsletter Special Offers, Honda Info & Sign Up
+New Accord Offer
+New Civic Offer
+New CR-V Offer
+Student Discounts
+Advertised Specials
+Pre-Approved Financing
+Military Discounts
+Free Trade-In Appraisal
+CASH For Your Car!
+Payment Calculator
+End of Lease
+Trade -in Marketplace
+Refinance
+Student Discounts
+Service Center
+Parts Center
+Schedule Service
+Collision Center
+Get An Extended Warranty
+RECALL Check
+Payment Calculator
+Service FAQs
+Vehicle Repair Status
+Vehicle Reports
+eNewsletter Special Offers, Honda Info & Sign Up
+Meet The Service Team
+Meet The Collision Team
+Hours and Directions
+Career Opportunities
+Dealer Rater
+Testimonials
+Letter from the Owners
+Social Media
+eNewsletter Special Offers, Honda Info & Sign Up
+Customer Certified reviews
+Meet The Sales Team & Testimonials
+Tenafly Earth Day 2014
+Demarest 5K
+Leave A Review
+
+HOME
+PRIVACY POLICY
+SITEMAP
+
+
+
+
+
+
+
+
+Website Admin
+
+
+
+
+
+
+
+
+57-02 Northern Blvd
+Woodside, NY 11377
+
+
+Español
+HOME
+NEW VEHICLES
+
+
+
+
+
+
+
+
+
+USED VEHICLES
+
+
+
+
+
+
+
+
+SPECIALS
+
+
+
+
+
+FINANCE
+
+
+
+
+SERVICE
+
+
+
+
+
+CONTACT
+
+
+
+
+
+
+
+
+
+
+VIDEOS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014 Honda Accord Coupe
+
+2014 Honda Accord Sedan
+
+2014 Honda Accord Hybrid Sedan
+
+2014 Honda Accord Plug-In Hybrid Sedan
+
+2014 Honda Civic Coupe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View All
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+new Honda cars in Woodside
+used car in the greater Woodside
+read more
+
+
+
+
+RECESSION BUSTERS
+NEW VEHICLES
+PRE-OWNED VEHICLES
+
+2013 Honda Fit Base Hatchback
+View Details
+
+2013 Honda Fit Base Hatchback
+View Details
+
+2013 Honda Fit Base Hatchback
+View Details
+
+2013 Honda Fit Base Hatchback
+View Details
+View More
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+read more
+New Vehicles
+Honda Showroom
+Honda Incentives
+Honda Reviews
+Used Vehicles
+Certified Honda Vehicles
+Recession Butsters
+CarFinder
+Finance Center
+Apply for Credit
+Payment Estimator
+Value Your Trade
+Schedule Service
+Order Parts
+Service Specials
+Honda eStore
+DIRECTIONS
+CONTACT
+ABOUT
+PRIVACY
+SITEMAP
+Website by Dealer.com
+Español
+Login
+
+
+
+
+
+0
+Recently
+Viewed Cars
+
+
+
+
+0
+Saved
+Cars
+
+
+
+
+0
+Price
+Alerts
+
+
+
+Contact
+Reviews
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Social
+
+
+
+
+
+Info
+
+
+Hide
+
+
+
+
+close
+ 
+
+1260 Northern Boulevard
+Manhasset, NY 11030
+Select Language?
+
+
+
+Home
+New
+
+
+
+
+Pre-Owned
+
+
+
+
+
+Finance
+
+
+
+
+Parts & Service
+
+
+
+
+
+
+Specials
+
+
+
+
+
+About Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SERVICE SPECIALS
+SERVICE CENTER
+SHOWROOM
+CARFINDER
+Coupe
+Hatchback
+SUV
+Sedan
+Truck
+Van
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014 Honda CR-V SUV
+
+2014 Honda Crosstour SUV
+
+2014 Honda Pilot SUV
+View All
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2013 Honda Accord EX
+VIEW DETAILS
+
+2013 Honda CR-Z Base
+VIEW DETAILS
+
+2013 Honda CR-Z EX
+VIEW DETAILS
+
+2013 Honda CR-Z EX
+VIEW DETAILS
+View All
+
+2011 Honda Accord Sdn EX
+VIEW DETAILS
+
+2010 Honda Accord Sdn EX
+VIEW DETAILS
+
+2011 Honda Accord Sdn EX-L
+VIEW DETAILS
+
+2011 Honda Accord Sdn EX-L
+VIEW DETAILS
+View All
+new Honda cars in Manhasset
+Civic
+Accord
+Odyssey
+CR-Z
+Pilot
+CR-V,
+Manhasset used
+Honda service
+Honda car parts
+visiting our Manhasset dealership
+about us page
+
+
+http://www.fueleconomy.gov/feg/label/learn-more-electric-label.shtml
+http://www.fueleconomy.gov/feg/label/learn-more-PHEV-label.shtml.
+
+New Vehicles
+Pre-Owned Vehicles
+Build & Price
+Specials
+CarFinder
+
+
+Accord
+Accord Hybrid
+Accord Plug-In Hybrid
+Civic
+CR-V
+CR-Z
+Crosstour
+Fit
+Insight
+Odyssey
+
+
+View More…
+Coupe
+Hatchback
+Sedan
+SUV
+Truck Crew Cab
+Van
+$10,000 – $19,999
+$20,000 – $29,999
+$30,000 – $39,999
+$40,000 – $49,999
+No Price Available
+Service Center
+Service Specials
+Parts Center
+Parts Specials
+Finance Center
+Value Your Trade
+Payment Estimator
+Dealership History
+Dealership Hours
+Directions
+Contact Us
+Directions
+Contact
+About
+Privacy
+Sitemap
+Website by Dealer.com
+Login
+
+
+
+
+
+0
+Recently
+Viewed Cars
+
+
+
+
+0
+Saved
+Cars
+
+
+
+
+0
+Price
+Alerts
+
+
+
+Info
+
+
+Hide
+
+
+344 Central Ave
+White Plains, NY 10606
+
+Español
+
+HOME
+NEW
+
+
+
+
+
+
+
+
+
+USED
+
+
+
+
+
+
+VIDEOS
+
+
+FINANCE
+
+
+
+
+SERVICE
+
+
+
+
+PARTS
+
+
+
+SPECIALS
+
+
+
+
+ABOUT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014 Honda Accord Coupe
+
+2014 Honda Accord Sedan
+
+2014 Honda Accord Hybrid Sedan
+
+2014 Honda Accord Plug-In Hybrid Sedan
+
+2014 Honda Civic Coupe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View All
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Accord
+CR-V
+Civic
+Odyssey
+Pilot
+new Honda vehicle
+read more
+
+
+
+
+FEATURED VEHICLES
+NEW VEHICLES
+PRE-OWNED VEHICLES
+
+2013 Honda Pilot Touring W/RES/Navi 4WD SUV
+View Details
+
+2013 Honda Accord EX-L V-6 W/Navigation Coupe
+View Details
+
+2013 Honda Pilot Touring W/RES/Navi 4WD SUV
+View Details
+
+2013 Honda Crosstour EX-L SUV
+View Details
+View More
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://www.fueleconomy.gov/feg/label/learn-more-electric-label.shtml
+http://www.fueleconomy.gov/feg/label/learn-more-PHEV-label.shtml.
+New Vehicles
+Pre-Owned Vehicles
+Build & Price
+Specials
+CarFinder
+Pre-Owned Vehicles
+Vehicles Under $10,000
+Pre-Owned Specials
+CarFinder
+Finance Center
+Finance Application
+Estimated Payment Calculator
+Value Your Trade
+Schedule Service
+Order Parts and Accessories
+Service Specials
+DIRECTIONS
+CONTACT
+ABOUT
+PRIVACY
+SITEMAP
+Website by Dealer.com
+Español
+Login
+
+
+
+
+
+0
+Recently
+Viewed Cars
+
+
+
+
+0
+Saved
+Cars
+
+
+
+
+0
+Price
+Alerts
+
+
+
+Contact
+Reviews
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Social
+
+
+
+
+
+Info
+
+
+Hide
+
+
+
+
+close
+
+
+6608 John F. Kennedy Blvd W
+West New York, NJ 07093
+
+Select Language?
+
+
+
+
+Home
+New
+
+
+
+
+
+
+
+Used
+
+
+
+
+
+
+
+
+Virtual Test Drive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Finance
+
+
+
+
+Parts & Service
+
+
+
+
+
+
+
+Specials
+
+
+
+
+
+
+
+Info
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Trade-In Value
+Get financed
+CarFinder
+Schedule Service
+
+
+
+
+
+
+Featured Vehicles
+New Vehicles
+Pre-Owned Vehicles
+
+2012 Honda Civic Hybrid W/Leather Sedan
+View Details
+
+2012 Honda Civic Hybrid Sedan
+View Details
+View More
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read More Reviews for Hudson Honda by CLICKING HERE
+http://www.fueleconomy.gov/feg/label/learn-more-electric-label.shtml
+http://www.fueleconomy.gov/feg/label/learn-more-PHEV-label.shtml.
+New Vehicles
+Pre-Owned Vehicles
+Finance
+Parts
+Service
+Videos
+Contact
+Pre-Owned Specials
+Request A Quote
+Service Specials
+CarFinder
+Trade-In Appraisal
+Finance Application
+6608 John F. Kennedy Blvd W
+
+West New York
+,
+NJ
+07093
+
+
+Home
+Directions
+Contact Us
+Privacy
+Sitemap
+Website by Dealer.com
+Login
+
+
+
+
+
+0
+Recently
+Viewed Cars
+
+
+
+
+0
+Saved
+Cars
+
+
+
+
+0
+Price
+Alerts
+
+
+
+Contact
+Social
+
+
+Info
+
+
+Hide
+
+
+
+
+
+
+
+
+
+
+Select Language?
+
+
+
+
+Home
+New Honda
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pre-Owned
+
+
+
+Specials
+
+
+
+
+
+
+Finance
+
+
+
+
+Services
+
+
+
+
+
+About Us
+
+
+
+
+
+
+
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Accord CPE
+
+
+Civic CPE
+
+
+Crosstour
+
+
+CR-V
+
+
+CR-Z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Terms of Use
+Report a map error
+
+
+
+SHOP NOW
+terms of use
+Sitemap
+Contact Us
+Custom Dealer Website by
+
+
+[X]
+
+
+
+
+
+
+
+
+NEW SPECIALS
+
+
+
+
+
+
+
+NEW VEHICLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PRE-OWNED
+
+
+
+
+
+
+
+
+
+SPECIALS
+
+
+
+
+
+
+
+
+
+FINANCE
+
+
+
+SERVICE & PARTS
+
+
+
+
+
+CONTACT US
+
+
+
+
+
+VALUE YOUR TRADE
+
+Vehicle Details
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+New
+
+
+Year
+Make
+Model
+Trim
+Body
+Color
+Fuel
+Price
+Transmission
+
+Payment
+
+
+
+
+
+
+Vin/Stock
+VIEW VEHICLE SEARCH RESULTS
+
+
+
+
+
+New 2014 Honda Accord
+LX Sedan Automatic
+New 2014 Honda Civic
+LX Sedan Automatic
+New 2014 Honda CR-V
+LX AWD
+New 2013 Honda Fit
+Sport Automatic
+New 2014 Honda Odyssey
+LX
+
+ALL PRE-OWNED
+
+2006 Accord Sedan
+
+2005 CR-V
+
+2007 Odyssey
+
+2007 Civic Sedan
+
+2002 CR-V
+
+2006 Accord Coupe
+
+2008 Civic Coupe
+
+2006 Civic Sedan
+CERTIFIED PRE-OWNED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VEHICLES UNDER $20,000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DealerX.com
+Privacy Policy
+]]></system-out>
+  <system-err><![CDATA[Warning:  Property storage name for 5 is empty - setting to Root Entry
+]]></system-err>
+</testsuite>
