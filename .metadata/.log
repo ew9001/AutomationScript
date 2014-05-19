@@ -1014,3 +1014,15 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.jst.jsp.core 2 2 2014-05-19 11:45:37.069
 !MESSAGE Taglib Index ZipException: /Users/agolubev1/Desktop/AutomationScript/TriHonda/junitvmwatcher5430452521320237895.properties error in opening zip file
+
+!ENTRY org.eclipse.jdt.core 4 0 2014-05-19 13:20:15.608
+!MESSAGE Invalid ZIP archive: junit1790936120431619395.properties [in TriHonda]
+
+!ENTRY org.eclipse.jdt.core 4 0 2014-05-19 13:20:15.608
+!MESSAGE Invalid ZIP archive: junit5440943993902913453.properties [in TriHonda]
+
+!ENTRY org.eclipse.jdt.core 4 0 2014-05-19 13:20:15.608
+!MESSAGE Invalid ZIP archive: junitvmwatcher4556779921075881628.properties [in TriHonda]
+
+!ENTRY org.eclipse.jdt.core 4 0 2014-05-19 13:20:15.609
+!MESSAGE Invalid ZIP archive: junitvmwatcher5430452521320237895.properties [in TriHonda]
