@@ -987,3 +987,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.apache.ivyde.eclipse 1 0 2014-05-19 10:32:21.526
 !MESSAGE IvyDE plugin started
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2014-05-19 11:21:47.835
+!MESSAGE No valid Android XML Editor Delegate found for file /TriHonda/build.xml [Res null, type null]
