@@ -968,3 +968,22 @@ org.apache.ivyde.eclipse.IvyDEException: The ivy.xml file '/Users/agolubev1/Desk
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2014-05-16 18:03:41.839
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/AutomationScript/TriHonda/build.xml]
+!SESSION 2014-05-19 10:30:42.342 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/agolubev1/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/agolubev1/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-05-19 10:30:58.257
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2014-05-19 10:31:00.644
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2014-05-19 10:32:21.514
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2014-05-19 10:32:21.526
+!MESSAGE IvyDE plugin started

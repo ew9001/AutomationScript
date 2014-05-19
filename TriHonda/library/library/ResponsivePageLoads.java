@@ -14,6 +14,7 @@ import java.net.URL;
 
 import org.openqa.selenium.Capabilities;
 
+import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -106,7 +107,8 @@ public void searchGoogle() throws Exception {
  InputStream  fi= new FileInputStream(data);
 Workbook w = Workbook.getWorkbook(fi);
 s = w.getSheet(0);
-String myTitle = driver.getTitle();
+String myTitle;
+
 
 
 //Capabilities caps = ((RemoteWebDriver) driver).getCapabilities();
@@ -145,6 +147,10 @@ try {
          (new Robot()).keyRelease(java.awt.event.KeyEvent.VK_ENTER);
 
          } catch (AWTException e) {
+        	 
+        	 
+        	 
+        	 
 
                 // TODO Auto-generated catch block
 
@@ -153,51 +159,14 @@ try {
             }
 
 
-    File scrFile1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-
-FileUtils.copyFile(scrFile1, new File("ResponsivePageLoads/" + row + "-" + myTitle + "-" + "responsive.png"));
-
-//((Rotatable) driver).rotate(ScreenOrientation.PORTRAIT);
-
-
-//Thread.sleep(3000);
-
-
-  //driver.findElement(By.cssSelector("a.request-button.blue-button > span")).click();
-
    
-
-//System.out.println(driver.getCurrentUrl() + " - " + driver.getTitle() + " - landscape");
-
-
-//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
-  
-
-
-
-//System.out.println(driver.getCurrentUrl() + " - " + driver.getTitle() + " - portrait");
-
-
-   // File scrFile2 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-
-//FileUtils.copyFile(scrFile2, new File("Y://Screenshots/" +  browserName + browserVersion + "/" + row +   "-portrait.png"));
-
-//((Rotatable) driver).rotate(ScreenOrientation.LANDSCAPE);
-
+WebDriver augmentedDriver = new Augmenter().augment(driver);
+System.out.println("Faield to find the button " +row);
+File screenshot = ((TakesScreenshot)augmentedDriver).getScreenshotAs(OutputType.FILE);
+myTitle = driver.getTitle();
+FileUtils.copyFile(screenshot, new File("ExternalPages" + "/" + row + "_found" + myTitle +".png"));
+//e.printStackTrace();
 }
-
-}
-
-
-
-
-private boolean isElementPresent(By cssSelector) {
-
-// TODO Auto-generated method stub
-
-return false;
-
 }
 
 
@@ -207,10 +176,12 @@ return false;
 public void tearDown() throws Exception {
 
  
-
+	
     driver.quit();
 
-    String verificationErrorString = verificationErrors.toString();
+ 
+
+    
 
   }
 

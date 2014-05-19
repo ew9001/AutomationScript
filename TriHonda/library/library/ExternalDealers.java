@@ -41,10 +41,8 @@ public class ExternalDealers{
 Sheet s;
 WebDriver driver;
 int count=0;
-public static final String USERNAME = "earlwillis1";
-public static final String AUTOMATE_KEY = "XsPyFTirN4mH8aCLMB9A";
-public static final String URL = "http://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
-String local=(new java.io.File("").getAbsolutePath());
+
+
 String data="" + local + "/" + "externaldealers.xls";
 String name ="";
 @Before
