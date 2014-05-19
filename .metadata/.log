@@ -990,3 +990,27 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY com.android.ide.eclipse.adt 1 0 2014-05-19 11:21:47.835
 !MESSAGE No valid Android XML Editor Delegate found for file /TriHonda/build.xml [Res null, type null]
+
+!ENTRY org.eclipse.jdt.core 4 0 2014-05-19 11:45:35.743
+!MESSAGE Invalid ZIP archive: junit1790936120431619395.properties [in TriHonda]
+
+!ENTRY org.eclipse.jdt.core 4 0 2014-05-19 11:45:35.743
+!MESSAGE Invalid ZIP archive: junit5440943993902913453.properties [in TriHonda]
+
+!ENTRY org.eclipse.jdt.core 4 0 2014-05-19 11:45:35.744
+!MESSAGE Invalid ZIP archive: junitvmwatcher4556779921075881628.properties [in TriHonda]
+
+!ENTRY org.eclipse.jdt.core 4 0 2014-05-19 11:45:35.744
+!MESSAGE Invalid ZIP archive: junitvmwatcher5430452521320237895.properties [in TriHonda]
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2014-05-19 11:45:37.067
+!MESSAGE Taglib Index ZipException: /Users/agolubev1/Desktop/AutomationScript/TriHonda/junit1790936120431619395.properties error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2014-05-19 11:45:37.068
+!MESSAGE Taglib Index ZipException: /Users/agolubev1/Desktop/AutomationScript/TriHonda/junit5440943993902913453.properties error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2014-05-19 11:45:37.069
+!MESSAGE Taglib Index ZipException: /Users/agolubev1/Desktop/AutomationScript/TriHonda/junitvmwatcher4556779921075881628.properties error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2014-05-19 11:45:37.069
+!MESSAGE Taglib Index ZipException: /Users/agolubev1/Desktop/AutomationScript/TriHonda/junitvmwatcher5430452521320237895.properties error in opening zip file

@@ -22,6 +22,10 @@
 	<classpathentry kind="lib" path="library/selenium-java-2.41.0.jar"/>
 	<classpathentry kind="lib" path="library/selenium-server-2.37.0.jar"/>
 	<classpathentry kind="lib" path="library/selenium-server-standalone-2.37.0.jar"/>
+	<classpathentry kind="lib" path="junit1790936120431619395.properties"/>
+	<classpathentry kind="lib" path="junit5440943993902913453.properties"/>
+	<classpathentry kind="lib" path="junitvmwatcher4556779921075881628.properties"/>
+	<classpathentry kind="lib" path="junitvmwatcher5430452521320237895.properties"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
