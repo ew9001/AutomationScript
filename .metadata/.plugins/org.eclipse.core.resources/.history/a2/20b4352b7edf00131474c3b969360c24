@@ -159,7 +159,7 @@ WebDriver augmentedDriver = new Augmenter().augment(driver);
 System.out.println("Faield to find the button " +row);
 File screenshot = ((TakesScreenshot)augmentedDriver).getScreenshotAs(OutputType.FILE);
 myTitle = driver.getTitle();
-FileUtils.copyFile(screenshot, new File("ResponsivePageLoads" + "/" + row + "_found" + myTitle +".png"));
+FileUtils.copyFile(screenshot, new File("ExternalPages" + "/" + row + "_found" + myTitle +".png"));
 //e.printStackTrace();
 }
 }
